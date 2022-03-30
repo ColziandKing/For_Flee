@@ -76,4 +76,40 @@
 		"Receive 10% bonus toward correspondent Great Person when you build an unique specialist building in your Empire for the first time"]
 		"cities": ["Yavin 4", "Hoth", "Endor", "Dantooine", "Aldeeran", "Dantooine", "Ando", "Dagobah", "Castilon", "Eadu", "Kuat", "Mimbam", "Shilli", "Wrea", "Vandor", "Lothal"]
 	},
+	{
+		"name": "Barbaroi",
+		"leaderName": "Jabba the Hutt",
+		"adjective": ["Smuggler"],
+		"preferredVictoryType": "Domination",
+		
+		"startIntroPart1": "Ahh, the prodigal one returns. I hear you have found a most suitable place for me to do operations.",
+		"startIntroPart2": "Since you offered, you will be in charge of setting my trade routes here. I expect to hear good news soon... For your own good.",					
+		
+		"declaringWar": "It appears there are many who want you dead, and so you will be.",
+		"attacked": "No one double crosses Jabba and lives.",
+		"defeated": "Fool! At least with me the underworld was under control, but soon one worse than me shall rise.",
+		"introduction": "If there's money to be made, we will get it.",
+		"neutralHello": "Come to me with a deal?",		
+		"neutralLetsHearIt": "You have an offer?",
+		"neutralNo": "I could have you hung for that.",
+		"neutralYes": "You know how to do business",
+		"hateHello": "I can feel the conflict within you.",	
+		"hateLetsHearIt": "You are hard to kill.",
+		"hateNo": "I could have you hung for that.",
+		"hateYes": "You know how to do business.",
+		"afterPeace": "This is not peace, but a pause",
+		"tradeRequest": "My latest batch of shipments has arrived.",
+		
+		"outerColor": [255,255,255],
+		"innerColor": [238,201,0],
+		"uniqueName": "Criminal Underworld",
+		"uniques": ["Workers are armed and can battle, but construct much slower",
+		"Gold from all trade routes +25%",
+		"[+33]% tile improvement construction time"
+		"[+50]% Strength <vs [Barbarian] units>",
+		"[+50]% Strength <vs [City-State] units>",
+		"[-25]% Production when constructing [All] buildings [in all cities]",
+		"[Bounty Hunter] units gain the [Collect the Bounty] promotion"]
+		"cities": ["Tatooine", "Corellia", "Bespin", "Zonama", "Mimbam", "Concord Dawn", "Rodia", "Passana", "Vortex", "Thyferra", "Ralltir"]
+	}
 ]
