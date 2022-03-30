@@ -1,0 +1,40 @@
+[
+{
+		"name": "Maori Warrior",
+		"unitType": "Sword",
+		"uniqueTo": "gggg",
+		"replaces": "Warrior",
+		"movement": 2,
+		"strength": 8,
+		"cost": 40,
+		"obsoleteTech": "Metal Casting",
+		"promotions": ["Haka War Dance"],
+		"upgradesTo": "Swordsman",
+		"attackSound": "nonmetalhit"
+	},
+	{
+		"name": "Jaguar",
+		"unitType": "Sword",
+		"uniqueTo": "Aztecs",
+		"replaces": "ffff",
+		"movement": 2,
+		"strength": 8,
+		"cost": 40,
+		"obsoleteTech": "Metal Casting",
+		"promotions": ["[Jaguar] ability","Woodsman"],
+		"upgradesTo": "Swordsman",
+		"attackSound": "nonmetalhit"
+	},
+	{
+		"name": "Brute",
+		"unitType": "Sword",
+		"uniqueTo": "Barbaroi",
+		"replaces": "Warrior",
+		"movement": 2,
+		"strength": 8,
+		"cost": 20,
+		"obsoleteTech": "Metal Casting",
+		"upgradesTo": "Swordsman",
+		"attackSound": "nonmetalhit"
+	}
+  ]
