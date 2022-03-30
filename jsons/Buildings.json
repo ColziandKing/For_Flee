@@ -55,7 +55,7 @@
 	{
 		"name": "Burial Tomb",
 		"replaces": "Temple",
-		"uniqueTo": "gggg",
+		"uniqueTo": "hhhh",
 		"maintenance": 0,
 		"uniques": ["Doubles Gold given to enemy if city is captured"],
 		"faith": 2,
@@ -128,7 +128,7 @@
 	{
 		"name": "Ceilidh Hall",
 		"replaces": "Opera House",
-		"uniqueTo": "ffff",
+		"uniqueTo": "hhhh",
 		"culture": 4,
 		"happiness": 3,
 		"specialistSlots": {"Artist": 1},
@@ -141,7 +141,7 @@
 	{
 		"name": "Satrap's Court",
 		"replaces": "Bank",
-		"uniqueTo": "gggg",
+		"uniqueTo": "hhhh",
 		"gold": 2,
 		"specialistSlots": {"Merchant": 1},
 		"happiness": 2,
