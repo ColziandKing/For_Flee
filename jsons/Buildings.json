@@ -2,7 +2,7 @@
   {
 		"name": "Stele",
 		"replaces": "Monument",
-		"uniqueTo": "",
+		"uniqueTo": "gggg",
 		"culture": 2,
 		"faith": 2,
 		"cost": 40,
