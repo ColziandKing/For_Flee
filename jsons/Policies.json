@@ -170,7 +170,6 @@
 			},
 			{
 				"name": "Mandate Of Heaven",
-				"requires": ["Organized Religion"],
 				"uniques": ["[Faith] cost of purchasing items in cities [-20]%"],
 				"row": 1,
 				"column": 5
