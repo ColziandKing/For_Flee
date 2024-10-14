@@ -189,6 +189,15 @@
 				"column": 3
 			},
 			{
+                		"name": "Planned Economy",
+				"requires": ["Reformation"],
+                		"uniques": [
+                    			"[-15]% [Science] from every [Shrine]","[-15]% [Science] from every [Temple]"
+                			],
+                		"row": 3,
+                		"column": 2
+            		},
+			{
 				"name": "Jihad",
 				"requires": ["Reformation","Mandate Of Heaven"],
 				"uniques": [
@@ -245,6 +254,15 @@
 				"column": 3
 			},
 			{
+            			"name": "Trade Unions",
+				"requires": ["Consulates"],
+            			"uniques": [
+                			"[+1 Gold] from every [Trading post]","[+2 Culture] from each Trade Route","[+1 Food] from every [Trading post]"
+            				],
+            			"row": 3,
+            			"column": 5
+        		},
+			{
 				"name": "Patronage Complete",
 				"uniques": ["Influence of all other civilizations with all city-states degrades [33]% faster", 
 					"Triggers the following global alert: [Our influence with City-States has started dropping faster!]"]
@@ -298,15 +316,6 @@
 				"row": 2,
 				"column": 5
 			},
-			{
-            			"name": "Trade Unions",
-				"requires": ["Entrapreneurship","Mercantilism"],
-            			"uniques": [
-                			"[+1 Gold] from every [Trading post]","[+2 Culture] from each Trade Route","[+1 Food] from every [Trading post]"
-            				],
-            			"row": 3,
-            			"column": 3
-        		},
 			{
 				"name": "Commerce Complete",
 				"uniques": ["[+1 Gold] from every [Customs house]",
