@@ -169,6 +169,12 @@
 				"column": 2
 			},
 			{
+				"name": "Sharia",
+				"uniques": ["[Faith] cost of purchasing items in cities [-20]%"],
+				"row": 2,
+				"column": 1
+			},
+			{
 				"name": "Mandate Of Heaven",
 				"uniques": ["[Faith] cost of purchasing items in cities [-20]%"],
 				"row": 1,
@@ -182,14 +188,17 @@
 				"column": 3
 			},
 			{
-				"name": "Harmony",
-				"requires": ["Theocracy"],
+				"name": "Jihad",
+				"requires": ["Reformation","Mandate Of Heaven"],
 				"uniques": [
-					"[+1 Happiness, +1 Food, +1 Faith, +1 Culture, +3 Production] <in cities with at least [7] [Population]>",
-					"[-10]% Unhappiness from [Population] [in all cities]"
+					"[+15]% Strength <for [All] units> <when fighting in [Plains] tiles>",
+					"[+15]% Strength <for [All] units> <when fighting in [Jungle] tiles>",
+					"[+15]% Strength <for [All] units> <when fighting in [Hill] tiles>",
+					"[+15]% Strength <for [All] units> <when fighting in [Forest] tiles>",
+					"[+15]% Strength <for [All] units> <when fighting in [Grassland] tiles>"
 				],
 				"row": 3,
-				"column": 1
+				"column": 4
 			},
 			{
 				"name": "Piety Complete",
@@ -334,19 +343,6 @@
 				"column": 5
 			},
 			{
-				"name": "Ecodefense",
-				"requires": ["Navigation School"],
-				"uniques": [
-					"[+15]% Strength <for [All] units> <when fighting in [Plains] tiles>",
-					"[+15]% Strength <for [All] units> <when fighting in [Jungle] tiles>",
-					"[+15]% Strength <for [All] units> <when fighting in [Hill] tiles>",
-					"[+15]% Strength <for [All] units> <when fighting in [Forest] tiles>",
-					"[+15]% Strength <for [All] units> <when fighting in [Grassland] tiles>"
-				],
-				"row": 3,
-				"column": 1
-			},
-			{
 				"name": "Treasure Fleets",
 				"uniques": ["[+4 Gold] from each Trade Route"],
 				"requires": ["Navigation School"],
@@ -414,6 +410,68 @@
 			}
 		]
 	},
+	 {
+		"name": "Rationalism",
+		"era": "Renaissance era",
+		"uniques": ["Only available <before adopting [Piety]>","[+10]% [Science] <while the empire is happy>", "Unlocks building the Porcelain Tower"],
+		"policies": [
+			{
+				"name": "Secularism",
+				"uniques": ["[+2 Science] from every specialist [in all cities]"],
+				"row": 1,
+				"column": 3
+			},
+				{
+				"name": "Sovereignty",
+				"uniques": ["[+1 Gold] from all [Science] buildings"],
+				"row": 2,
+				"column": 1
+			},
+			{
+				"name": "Humanism",
+				"uniques": ["[Great Scientist] is earned [25]% faster"],
+				"requires": ["Secularism"],
+				"row": 2,
+				"column": 3
+			},
+			{
+				"name": "Free Thought",
+				"uniques": ["[+1 Science] from every [Trading post]", "[+17]% [Science] from every [University]"],
+				"row": 2,
+				"column": 5
+			},
+			{
+				"name": "Scientific Revolution",
+				"uniques": ["Science gained from research agreements [+50]%"],
+				"requires": ["Sovereignty","Humanism"],
+				"row": 3,
+				"column": 1
+			},
+			{
+				"name": "Christ",
+				"uniques": ["Science gained from research agreements [+50]%"],
+				"requires": ["Humanism"],
+				"row": 3,
+				"column": 3
+			},
+			{
+				"name": "Weather Engineering",
+				"requires": ["Humanism","Free Thought"],
+				"uniques": [
+					"[+2 Gold, +2 Science] [in all cities]",
+					"[+10]% growth [in all cities] <during a Golden Age>"
+				],
+				"row": 3,
+				"column": 5
+			},
+			{
+				"name": "Rationalism Complete",
+				"uniques": ["[1] Free Technologies","[-10]% unhappiness from the number of cities",
+					"May buy [Great Scientist] units for [1000] [Faith] [in all cities in which the majority religion is a major religion] at an increasing price ([500]) <starting from the [Industrial era]>"
+				]
+			}
+		]
+	},
 	{
 		"name": "Freedom",
 		"era": "Modern era",
@@ -474,6 +532,12 @@
 			"Only available <before adopting [Order]>", "Only available <before adopting [Freedom]>"],
 		"policies": [
 			{
+				"name": "Nazism",
+				"uniques": ["[+25]% Strength <for [Wounded] units>"],
+				"row": 1,
+				"column": 3
+			},
+			{
 				"name": "Elite Forces",
 				"uniques": ["[+25]% Strength <for [Wounded] units>"],
 				"row": 1,
@@ -528,19 +592,7 @@
 				"row": 3,
 				"column": 5
 			},
-			{
-				"name": "Jihad",
-				"requires": ["Militarism"],
-				"uniques": [
-					"[+15]% Strength <for [All] units> <when fighting in [Plains] tiles>",
-					"[+15]% Strength <for [All] units> <when fighting in [Jungle] tiles>",
-					"[+15]% Strength <for [All] units> <when fighting in [Hill] tiles>",
-					"[+15]% Strength <for [All] units> <when fighting in [Forest] tiles>",
-					"[+15]% Strength <for [All] units> <when fighting in [Grassland] tiles>"
-				],
-				"row": 3,
-				"column": 2
-			},
+			
 			{
 				"name": "Autocracy Complete",
 				"uniques": ["[+25]% Strength <when attacking> <for [Military] units> <for [50] turns>","[+20]% unhappiness from the number of cities"]
