@@ -535,7 +535,7 @@
 				"name": "Nazism",
 				"uniques": ["[+25]% Strength <for [Wounded] units>"],
 				"row": 1,
-				"column": 3
+				"column": 1
 			},
 			{
 				"name": "Elite Forces",
@@ -552,7 +552,7 @@
 			{
 				"name": "Militarism",
 				"uniques": ["[+2 Happiness] from every [Barracks]","[+2 Happiness] from every [Armory]","[+2 Happiness] from every [Military Academy]"]
-				"requires": ["United Front","Elite Forces"],
+				"requires": ["Nazism","Elite Forces"],
 				"row": 2,
 				"column": 2
 			},
@@ -565,7 +565,7 @@
 			},
 			{
 				"name": "Scorched Earth",
-				"requires": ["United Front","Militarism"],
+				"requires": ["Nazism","Militarism"],
 				"uniques": [
 					"[+15]% Strength <vs cities>",
 					"Cities are razed [2] times as fast",
