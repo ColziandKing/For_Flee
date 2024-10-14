@@ -36,7 +36,7 @@ ReligionIcons/Catholicism
   orig: 100, 100
   offset: 0, 0
   index: -1
-ReligionIcons/Nazism
+PolicyIcons/Nazism
   rotate: false
   xy: 500, 600
   size: 100, 100
@@ -293,7 +293,7 @@ PolicyIcons/Doctrine
   orig: 50, 50
   offset: 0, 0
   index: -1
-PolicyIcons/Ecodefense
+PolicyIcons/Jihad
   rotate: false
   xy: 62, 40
   size: 50, 50
