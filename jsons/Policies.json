@@ -343,13 +343,6 @@
 				"column": 4
 			},
 			{
-				"name": "Fortune Wheel",
-				"uniques": ["[+2 Production, +2 Faith] from each Trade Route","[+22]% [Culture] from every [Harbor]"],
-				"requires": ["Maritime Infrastructure","Naval Tradition"],
-				"row": 2,
-				"column": 1
-			},
-			{
 				"name": "Merchant Navy",
 				"uniques": ["[+1 Gold] from every [Lighthouse]","[+1 Gold] from every [Harbor]","[+1 Gold] from every [Seaport]","[+4 Production, +4 Culture] from every [East India Company]"],
 				"requires": ["Maritime Infrastructure","Naval Tradition"],
@@ -362,6 +355,12 @@
 				"requires": ["Naval Tradition"],
 				"row": 2,
 				"column": 5
+			},
+			{
+				"name": "Fortune Wheel",
+				"uniques": ["[+2 Production, +2 Faith] from each Trade Route","[+22]% [Culture] from every [Harbor]"],
+				"row": 3,
+				"column": 1
 			},
 			{
 				"name": "Treasure Fleets",
