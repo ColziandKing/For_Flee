@@ -177,7 +177,7 @@
 			},
 			{
 				"name": "Sharia",
-				"uniques": ["[Faith] cost of purchasing items in cities [-20]%"],
+				"uniques": ["[-2 Science] [in all cities]","[Faith] cost of purchasing [Inquisitor] units [-15]%"],
 				"row": 2,
 				"column": 1
 			},
@@ -192,6 +192,7 @@
 				"name": "Jihad",
 				"requires": ["Reformation","Mandate Of Heaven"],
 				"uniques": [
+					"[-2 Happiness] [in all cities]","Free [Inquisitor] appears",
 					"[+15]% Strength <for [All] units> <when fighting in [Desert] tiles>",
 					"[+15]% Strength <for [All] units> <when fighting in [Hill] tiles>"
 				],
@@ -200,7 +201,7 @@
 			},
 			{
 				"name": "Piety Complete",
-				"uniques": ["Free [Great Prophet] appears", "Free Social Policy", "[+3 Culture] from every [Holy site]"]
+				"uniques": ["Free [Great Prophet] appears", "[+3 Culture] from every [Holy site]"]
 			}
 		]
 	},
@@ -334,7 +335,7 @@
 			},
 			{
 				"name": "Fortune Wheel",
-				"uniques": ["[+1 Gold] from every [Lighthouse]","[+1 Gold] from every [Harbor]","[+1 Gold] from every [Seaport]","[+4 Production, +4 Culture] from every [East India Company]"],
+				"uniques": ["[+2 Production, +2 Faith] from each Trade Route","[+22]% [Culture] from every [Harbor]"],
 				"requires": ["Maritime Infrastructure","Naval Tradition"],
 				"row": 2,
 				"column": 1
@@ -460,7 +461,7 @@
 			},
 			{
 				"name": "Christ",
-				"uniques": ["Science gained from research agreements [+50]%"],
+				"uniques": ["[+2 Production,+2 Food,+2 Gold,+2 Faith,+2 Culture,+2 Science,+2 Happiness] per [5] population [in all cities]"],
 				"requires": ["Humanism"],
 				"row": 3,
 				"column": 3
@@ -486,8 +487,8 @@
 	{
 		"name": "Freedom",
 		"era": "Modern era",
-		"uniques": ["[+25]% Great Person generation [in all cities]", "Unlocks building the Statue of Liberty", "Only available <before adopting [Autocracy]>", "Only available <before adopting [Order]>",
-            "Only available <after adopting [Liberty]>"],
+		"uniques": ["[+25]% Great Person generation [in all cities]", "Unlocks building the Statue of Liberty", "Only available <before adopting [Autocracy]>", 
+			"Only available <before adopting [Order]>","Only available <after adopting [Rationalism]>"],
 		"policies": [
 			{
 				"name": "Civil Society",
@@ -546,12 +547,14 @@
 	{
 		"name": "Autocracy",
 		"era": "Industrial era",
-		"uniques": ["[Gold] cost of purchasing [All] units [-33]%", "Unlocks building the Prora",
-			"Only available <before adopting [Order]>", "Only available <before adopting [Freedom]>"],
+		"uniques": ["[Gold] cost of purchasing [All] units [-33]%", "Only available <after adopting [Piety]>", "[+1]% [Production] from every follower, up to [15]%",
+				"Only available <before adopting [Order]>", "Only available <before adopting [Freedom]>", "Unlocks building the Prora"],
 		"policies": [
 			{
 				"name": "Nazism",
-				"uniques": ["[+25]% Strength <for [Wounded] units>"],
+				"uniques": ["[+100]% Production when constructing [Constabulary] buildings [in all cities]",
+					"[+100]% Production when constructing [Police Station] buildings [in all cities]",
+					"[-3 Food,-3 Science] [in annexed cities]","[-3 Food,-3 Science] [in puppeted cities]"],
 				"row": 1,
 				"column": 1
 			},
