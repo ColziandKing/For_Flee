@@ -169,16 +169,17 @@
 				"column": 2
 			},
 			{
+				"name": "Mandate Of Heaven",
+				"requires": ["Organized Religion"],
+				"uniques": ["[Faith] cost of purchasing items in cities [-20]%"],
+				"row": 1,
+				"column": 5
+			},
+			{
 				"name": "Sharia",
 				"uniques": ["[Faith] cost of purchasing items in cities [-20]%"],
 				"row": 2,
 				"column": 1
-			},
-			{
-				"name": "Mandate Of Heaven",
-				"uniques": ["[Faith] cost of purchasing items in cities [-20]%"],
-				"row": 1,
-				"column": 5
 			},
 			{
 				"name": "Reformation",
@@ -276,7 +277,7 @@
 			{
 				"name": "Entrapreneurship",
 				"uniques": [ "[+100]% Gold from Great Merchant trade missions","[Great Merchant] is earned [25]% faster"],
-				"requires": ["Wagon Trains"],
+				"requires": ["Capitalism"],
 				"row": 2,
 				"column": 1
 			},
@@ -494,12 +495,6 @@
 				"row": 1,
 				"column": 1
 			},
-						{
-				"name": "Universal Healthcare",
-				"uniques": ["[+1 Happiness] from every [National Wonder]"],
-				"row": 1,
-				"column": 3
-			},
 			{
 				"name": "Promised Land",
 				"requires": ["Reformation","Mandate Of Heaven"],
@@ -511,19 +506,26 @@
 					"[+15]% Strength <for [All] units> <when fighting in [Grassland] tiles>"
 				],
 				"row": 1,
+				"column": 3
+			},
+			
+						{
+				"name": "Universal Healthcare",
+				"uniques": ["[+1 Happiness] from every [National Wonder]"],
+				"row": 1,
 				"column": 5
 			},
 			{
 				"name": "Volunteer Army",
 				"uniques": ["[6] units cost no maintenance", "[6] free [Foreign Legion] units appear"],
-				"requires": ["Civil Society","Universal Healthcare"],
+				"requires": ["Civil Society","Promised Land","Universal Healthcare"],
 				"row": 2,
 				"column": 2
 			},
 			{
 				"name": "Urbanization",
 				"uniques": ["[+1 Happiness] from every [Water Mill]","[+1 Happiness] from every [Hospital]","[+1 Happiness] from every [Medical Lab]"],
-				"requires": ["Universal Healthcare","Capitalism"],
+				"requires": ["Universal Healthcare","Promised Land"],
 				"row": 2,
 				"column": 4
 			},
