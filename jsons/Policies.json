@@ -283,7 +283,7 @@
 			},
 			{
 				"name": "Mercantilism",
-				"requires": ["Wagon Trains"],
+				"requires": ["Capitalism"],
 				"uniques": ["[Gold] cost of purchasing items in cities [-25]%", "[+1 Science] from every [Mint]", "[+1 Science] from every [Market]",
 					"[+1 Science] from every [Bank]", "[+1 Science] from every [Stock Exchange]"],
 				"row": 2,
@@ -497,7 +497,6 @@
 			},
 			{
 				"name": "Promised Land",
-				"requires": ["Reformation","Mandate Of Heaven"],
 				"uniques": [
 					"[+15]% Strength <for [All] units> <when fighting in [Plains] tiles>",
 					"[+15]% Strength <for [All] units> <when fighting in [Jungle] tiles>",
