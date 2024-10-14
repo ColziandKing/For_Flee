@@ -191,11 +191,8 @@
 				"name": "Jihad",
 				"requires": ["Reformation","Mandate Of Heaven"],
 				"uniques": [
-					"[+15]% Strength <for [All] units> <when fighting in [Plains] tiles>",
-					"[+15]% Strength <for [All] units> <when fighting in [Jungle] tiles>",
-					"[+15]% Strength <for [All] units> <when fighting in [Hill] tiles>",
-					"[+15]% Strength <for [All] units> <when fighting in [Forest] tiles>",
-					"[+15]% Strength <for [All] units> <when fighting in [Grassland] tiles>"
+					"[+15]% Strength <for [All] units> <when fighting in [Desert] tiles>",
+					"[+15]% Strength <for [All] units> <when fighting in [Hill] tiles>"
 				],
 				"row": 3,
 				"column": 4
