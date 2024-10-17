@@ -216,7 +216,7 @@
 	},
     {
 		"name": "Patronage",
-		"era": "Renaisance era",
+		"era": "Renaissance era",
 		"uniques": ["[-25]% City-State Influence degradation", "Unlocks building the Forbidden Palace"],
 		"policies": [
 			{
