@@ -1,7 +1,7 @@
  [
-	{
+   {
 		"name": "Tradition",
-		"era": "Ancient era",
+		"era": "Industrial era",
 		"uniques": ["[+3 Culture] [in capital]", "[-25]% Culture cost of natural border growth [in all cities]","Unlocks building the Hanging Gardens"],
 		"policies": [
 			{
@@ -16,16 +16,19 @@
 				"row": 1,
 				"column": 4
 			},
-			{
-				"name": "Theocracy",
-				"uniques": ["[+25]% [Gold] from every [Temple]","[+3 Gold] from every [Holy site]"],
+            {
+				"name": "Harmony",
 				"requires": ["Aristocracy"],
+				"uniques": [
+					"[+1 Happiness, +1 Food, +1 Faith, +1 Culture, +3 Production] <in cities with at least [7] [Population]>",
+					"[-10]% Unhappiness from [Population] [in all cities]"
+				],
 				"row": 2,
 				"column": 2
 			},
 						{
 				"name": "Legalism",
-				"uniques":["Provides a [Aqueduct] in your first [4] cities for free"],
+				"uniques":["Provides the cheapest [Culture] building in your first [4] cities for free"],
 				"requires": ["Oligarchy"],
 				"row": 2,
 				"column": 4
@@ -46,14 +49,14 @@
 			},
 			{
 				"name": "Tradition Complete",
-				"uniques": ["[+15]% growth [in all cities]","Provides the cheapest [Culture] building in your first [8] cities for free","May buy [Great Engineer] units for [1000] [Faith] [in all cities in which the majority religion is a major religion] at an increasing price ([500]) <starting from the [Industrial era]>"]
+				"uniques": ["[+15]% growth [in all cities]","Provides a [Aqueduct] in your first [8] cities for free","May buy [Great Engineer] units for [1000] [Faith] [in all cities in which the majority religion is a major religion] at an increasing price ([500]) <starting from the [Industrial era]>"]
 			}
 		]
 	},
 	{
 		"name": "Liberty",
-		"era": "Classical era",
-		"uniques": ["[+1 Culture] [in all cities]", "Unlocks building the Pyramids"],
+		"era": "Modern era",
+		"uniques": ["[+1 Culture] [in all cities]", "Only available <after adopting [Rationalism]>", "Unlocks building the Pyramids"],
 		"policies": [
 			{
 				"name": "Republic",
@@ -69,7 +72,7 @@
 			},
 			{
 				"name": "Collective Rule",
-				"uniques": ["[+50]% Production when constructing [Worker] units [in capital]", "Free [Settler] appears"],
+				"uniques": ["[+50]% Production when constructing [Settler] units [in capital]", "Free [Settler] appears"],
 				"requires": ["Republic"],
 				"row": 2,
 				"column": 1
@@ -88,13 +91,15 @@
 				"row": 2,
 				"column": 5
 			},
-			{
-				"name": "Free Religion",
-				"uniques": ["[-10]% Culture cost of adopting new Policies"],
-				"requires": ["Citizenship","Representation"],
-				"row": 3,
-				"column": 3
-			},
+            {
+                "name": "Nationalism",
+                "requires": ["Representation"],
+                "uniques": [
+                    "[+10]% Strength <for [All] units> <when fighting in [Friendly Land] tiles>"
+                ],
+                "row": 3,
+                "column": 3
+            },
 			{
 				"name": "Liberty Complete",
 				"uniques": ["Free Great Person"]
@@ -103,7 +108,7 @@
 	},
 	{
 		"name": "Honor",
-		"era": "Ancient era",
+		"era": "Industrial era",
 		"uniques": ["[+33]% Strength <vs [Barbarian] units>", "Earn [100]% of killed [Barbarian] unit's [Strength] as [Culture]",
 			"Notified of new Barbarian encampments", "Unlocks building the Statue of Zeus"],
 		"policies": [
@@ -134,14 +139,12 @@
 				"column": 4
 			},
 			{
-                		"name": "United Front",
+				"name": "Mercenary Army",
 				"requires": ["Military Tradition"],
-                		"uniques": [
-                    		"Militaristic City-States grant units [2] times as fast when you are at war with a common nation","[-100]% weight to this choice for AI decisions"
-                			],
-                			"row": 3,
-                			"column": 2
-            		},
+				"uniques": ["May buy [Landsknecht] units with [Gold] for [5] times their normal Production cost"],
+				"row": 3,
+				"column": 2
+			},
 			{
 				"name": "Professional Army",
 				"uniques": ["[-33]% Gold cost of upgrading <for [Military] units>","[+50]% Production when constructing [Barracks] buildings [in all cities]"
@@ -157,9 +160,9 @@
 			}
 		]
 	},
-	{
+    {
 		"name": "Piety",
-		"era": "Ancient era",
+		"era": "Industrial era",
 		"uniques": ["Only available <before adopting [Rationalism]>","[+100]% Production when constructing [Shrine] buildings [in all cities]", "[+100]% Production when constructing [Temple] buildings [in all cities]", "Unlocks building the Great Mosque of Djenne"],
 		"policies": [
 			{
@@ -175,9 +178,9 @@
 				"column": 5
 			},
 			{
-				"name": "Sharia",
+				"name": "Theocracy",
+				"uniques": ["[+25]% [Gold] from every [Temple]","[+3 Gold] from every [Holy site]"],
 				"requires": ["Organized Religion"],
-				"uniques": ["[-2 Science] [in all cities]","[Faith] cost of purchasing [Inquisitor] units [-15]%"],
 				"row": 2,
 				"column": 1
 			},
@@ -190,21 +193,18 @@
 			},
 			{
                 		"name": "Planned Economy",
-				"requires": ["Reformation"],
+				"requires": ["Theocracy"],
                 		"uniques": [
-                    			"[-15]% [Science] from every [Shrine]","[-15]% [Science] from every [Temple]"
+                    			"Free [Inquisitor] appears","[-15]% [Science] from every [Shrine]",
+					"[+15]% Strength <for [All] units> <when fighting in [Desert] tiles>"
                 			],
                 		"row": 3,
                 		"column": 2
             		},
 			{
-				"name": "Jihad",
-				"requires": ["Reformation","Mandate Of Heaven"],
-				"uniques": [
-					"[-2 Happiness] [in all cities]","Free [Inquisitor] appears",
-					"[+15]% Strength <for [All] units> <when fighting in [Desert] tiles>",
-					"[+15]% Strength <for [All] units> <when fighting in [Hill] tiles>"
-				],
+				"name": "Free Religion",
+				"uniques": ["[-10]% Culture cost of adopting new Policies"],
+				"requires": ["Mandate Of Heaven", "Reformation"],
 				"row": 3,
 				"column": 4
 			},
@@ -214,9 +214,9 @@
 			}
 		]
 	},
-	{
+    {
 		"name": "Patronage",
-		"era": "Classical era",
+		"era": "Renaisance era",
 		"uniques": ["[-25]% City-State Influence degradation", "Unlocks building the Forbidden Palace"],
 		"policies": [
 			{
@@ -254,14 +254,14 @@
 				"column": 3
 			},
 			{
-            			"name": "Trade Unions",
+                		"name": "United Front",
 				"requires": ["Consulates"],
-            			"uniques": [
-                			"[+1 Gold] from every [Trading post]","[+2 Culture] from each Trade Route","[+1 Food] from every [Trading post]"
-            				],
-            			"row": 3,
-            			"column": 5
-        		},
+                		"uniques": [
+                    		"Militaristic City-States grant units [2] times as fast when you are at war with a common nation","[-100]% weight to this choice for AI decisions"
+                			],
+                			"row": 3,
+                			"column": 5
+            		},
 			{
 				"name": "Patronage Complete",
 				"uniques": ["Influence of all other civilizations with all city-states degrades [33]% faster", 
@@ -272,7 +272,7 @@
 	{
 		"name": "Commerce",
 		"uniques": ["Only available <after adopting [Patronage]>","[+25]% [Gold] [in capital]", "Unlocks building Big Ben"],
-		"era": "Medieval era",
+		"era": "Renaissance era",
 		"policies": [
 			{
 				"name": "Wagon Trains",
@@ -288,11 +288,13 @@
 				"column": 3
 			},
 			{
-				"name": "Mercenary Army",
-				"uniques": ["May buy [Landsknecht] units with [Gold] for [5] times their normal Production cost"],
-				"row": 1,
-				"column": 5
-			},
+            			"name": "Trade Unions",
+            			"uniques": [
+                			"[+1 Gold] from every [Trading post]","[+2 Culture] from each Trade Route","[+1 Food] from every [Trading post]"
+            				],
+            			"row": 1,
+            			"column": 5
+        		},
 			{
 				"name": "Entrapreneurship",
 				"uniques": [ "[+100]% Gold from Great Merchant trade missions","[Great Merchant] is earned [25]% faster"],
@@ -312,7 +314,7 @@
 			{
 				"name": "Protectionism",
 				"uniques": ["[+2] Happiness from each type of luxury resource"],
-				"requires": ["Mercenary Army"],
+				"requires": ["Trade Unions"],
 				"row": 2,
 				"column": 5
 			},
@@ -328,7 +330,7 @@
 		"name": "Exploration",
 		"uniques": ["[+1] Movement <for [{Military} {Water}] units>",
 			"[+1] Sight <for [{Military} {Water}] units>","Unlocks building the Louvre"],
-		"era": "Medieval era",
+		"era": "Classical era",
 		"policies": [
 			{
 				"name": "Maritime Infrastructure",
@@ -377,7 +379,7 @@
 	},
 	{
 		"name": "Aesthetics",
-		"era": "Classical era",
+		"era": "Renaissance era",
 		"uniques": ["[Great Artist] is earned [33]% faster","Unlocks building the Uffizi"],
 		"policies": [
 			{
@@ -432,40 +434,40 @@
 	},
 	 {
 		"name": "Rationalism",
-		"era": "Renaissance era",
-		"uniques": ["Only available <before adopting [Piety]>","[+10]% [Science] <while the empire is happy>", "Unlocks building the Porcelain Tower"],
+		"era": "Medieval era",
+		"uniques": ["Only available <before adopting [Piety]>","Only available <after adopting [Freedom]>","[+10]% [Science] <while the empire is happy>", "Unlocks building the Porcelain Tower"],
 		"policies": [
 			{
 				"name": "Secularism",
 				"uniques": ["[+2 Science] from every specialist [in all cities]"],
+				"row": 1,
+				"column": 1
+			},
+			{
+				"name": "Humanism",
+				"uniques": ["[Great Scientist] is earned [25]% faster"],
 				"row": 1,
 				"column": 3
 			},
 				{
 				"name": "Sovereignty",
 				"uniques": ["[+1 Gold] from all [Science] buildings"],
-				"row": 2,
-				"column": 1
-			},
-			{
-				"name": "Humanism",
-				"uniques": ["[Great Scientist] is earned [25]% faster"],
-				"requires": ["Secularism"],
-				"row": 2,
-				"column": 3
-			},
-			{
-				"name": "Free Thought",
-				"uniques": ["[+1 Science] from every [Trading post]", "[+17]% [Science] from every [University]"],
-				"row": 2,
+				"row": 1,
 				"column": 5
 			},
 			{
 				"name": "Scientific Revolution",
 				"uniques": ["Science gained from research agreements [+50]%"],
-				"requires": ["Sovereignty","Humanism"],
-				"row": 3,
+				"requires": ["Secularism","Humanism"],
+				"row": 2,
 				"column": 1
+			},
+			{
+				"name": "Free Thought",
+				"requires": ["Humanism","Sovereignty"],
+				"uniques": ["[+1 Science] from every [Trading post]", "[+17]% [Science] from every [University]"],
+				"row": 2,
+				"column": 5
 			},
 			{
 				"name": "Christ",
@@ -474,16 +476,6 @@
 				"requires": ["Humanism"],
 				"row": 3,
 				"column": 3
-			},
-			{
-				"name": "Weather Engineering",
-				"requires": ["Humanism","Free Thought"],
-				"uniques": [
-					"[+2 Gold, +2 Science] [in all cities]",
-					"[+10]% growth [in all cities] <during a Golden Age>"
-				],
-				"row": 3,
-				"column": 5
 			},
 			{
 				"name": "Rationalism Complete",
@@ -495,9 +487,9 @@
 	},
 	{
 		"name": "Freedom",
-		"era": "Modern era",
+		"era": "Classical era",
 		"uniques": ["[+25]% Great Person generation [in all cities]", "Unlocks building the Statue of Liberty", "Only available <before adopting [Autocracy]>", 
-			"Only available <before adopting [Order]>","Only available <after adopting [Rationalism]>"],
+			"Only available <before adopting [Order]>"],
 		"policies": [
 			{
 				"name": "Civil Society",
@@ -555,15 +547,14 @@
 	},
 	{
 		"name": "Autocracy",
-		"era": "Industrial era",
-		"uniques": ["[Gold] cost of purchasing [All] units [-33]%", "Only available <after adopting [Piety]>", "[+1]% [Production] from every follower, up to [15]%",
-				"Only available <before adopting [Order]>", "Only available <before adopting [Freedom]>", "Unlocks building the Prora"],
+		"era": "Ancient era",
+		"uniques": ["[Gold] cost of purchasing [All] units [-33]%", "Only available <before adopting [Order]>", "Only available <before adopting [Freedom]>", "Unlocks building the Prora"],
 		"policies": [
 			{
 				"name": "Nazism",
 				"uniques": ["[+100]% Production when constructing [Constabulary] buildings [in all cities]",
 					"[+100]% Production when constructing [Police Station] buildings [in all cities]",
-					"[-3 Food,-3 Science] [in annexed cities]","[-3 Food,-3 Science] [in puppeted cities]"],
+					"[-3 Food, -3 Science] [in annexed cities]","[-3 Food, -3 Science] [in puppeted cities]"],
 				"row": 1,
 				"column": 1
 			},
@@ -631,7 +622,7 @@
 	},
 	{
     "name": "Order",
-    "era": "Industrial era",
+    "era": "Ancient era",
 	"uniques": ["[+2 Happiness] from every [Monument]", "Unlocks building the Kremlin", "Only available <before adopting [Autocracy]>", "Only available <before adopting [Freedom]>"],
     "policies": [
         {
@@ -669,6 +660,16 @@
                 "row": 2,
                 "column": 3
             },
+            {
+                "name": "Communism",
+                "requires": ["Socialism"],
+                "uniques": [
+                    "[-15]% [Science] from every [Temple]","[+50]% Unhappiness from [Population] [in all cities]"
+                ],
+                "row": 3,
+                "column": 2
+            },
+	    
         {
             "name": "Five-Year Plan",
             "requires": ["Workers' Faculties"],
@@ -676,17 +677,6 @@
             "row": 3,
             "column": 4
         },
-            {
-                "name": "Communism",
-                "requires": ["Socialism"],
-                "uniques": [
-                    "[+2 Production] [in all cities]",
-                    "[+1 Production] from every [Mine]",
-                    "[+1 Production] from every [Quarry]"
-                ],
-                "row": 3,
-                "column": 2
-            },
         {
             "name": "Order Complete",
 			"uniques": ["[+1 Food, +1 Production, +1 Science, +1 Gold, +1 Culture] [in all cities]","[+10]% unhappiness from the number of cities"]
