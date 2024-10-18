@@ -1,7 +1,7 @@
 [
     {
         "name": "Tradition",
-        "era": "Ancient era",
+        "era": "Industrial era",
         "uniques": [
             "[+3 Culture] from every [Palace]",
             "[-25]% Culture cost of natural border growth [in all cities]",
@@ -80,7 +80,7 @@
                 "name": "Tradition Complete",
                 "uniques": [
                     "[+15]% growth [in all cities]",
-                    "Provides a [Aqueduct] in your first [4] cities for free",
+                    "Provides a [Aqueduct] in your first [8] cities for free",
                     "May buy [Great Engineer] units for [1000] [Faith] [in all cities in which the majority religion is a major religion] at an increasing price ([500]) <starting from the [Industrial era]>"
                 ]
             }
@@ -88,7 +88,7 @@
     },
     {
         "name": "Liberty",
-        "era": "Ancient era",
+        "era": "Modern era",
         "uniques": [
             "[+1 Culture] [in all cities]",
             "Comment [Unlocks [The Pyramids]]",
@@ -182,7 +182,7 @@
     },
     {
         "name": "Honor",
-        "era": "Ancient era",
+        "era": "Industrial era",
         "uniques": [
             "[+33]% Strength <vs [Barbarian] units>",
             "Earn [100]% of killed [Military] unit's [Strength] as [Culture]",
@@ -213,7 +213,7 @@
                     "Provides [1] [Policies]"
                 ],
                 "row": 1,
-                "column": 5
+                "column": 4
             },
             {
                 "name": "Military Caste",
@@ -225,7 +225,7 @@
                 ],
                 "requires": ["Warrior Code"],
                 "row": 2,
-                "column": 1
+                "column": 2
             },
             {
                 "name": "Military Tradition",
@@ -238,8 +238,16 @@
                 ],
                 "requires": ["Professional Army"],
                 "row": 2,
-                "column": 5
+                "column": 4
             },
+	{
+				"name": "Mercenary Army",
+				"requires": ["Military Tradition"],
+				"uniques": ["May buy [Landsknecht] units with [Gold] for [5] times their normal Production cost"],
+				"row": 3,
+				"column": 2
+			},
+
             {
                 "name": "Discipline",
                 "uniques": [
@@ -249,8 +257,8 @@
                     "Provides [1] [Policies]"
                 ],
                 "requires": ["Warrior Code"],
-                "row": 2,
-                "column": 3
+                "row": 3,
+                "column": 4
             },
             {
                 "name": "Honor Complete",
@@ -264,7 +272,7 @@
     },
     {
         "name": "Piety",
-        "era": "Ancient era",
+        "era": "Classical era",
         "uniques": [
             "[+100]% Production when constructing [Temple] buildings [in all cities]",
             "[+100]% Production when constructing [Shrine] buildings [in all cities]",
@@ -346,7 +354,7 @@
     },
     {
         "name": "Aesthetics",
-        "era": "Classical era",
+        "era": "Medieval era",
         "uniques": [
             "[Great Artist] is earned [25]% faster",
             "[Great Writer] is earned [25]% faster",
@@ -440,7 +448,7 @@
     },
     {
         "name": "Patronage",
-        "era": "Classical era",
+        "era": "Renaissance era",
         "uniques": [
             "Resting point for Influence with City-States is increased by [20]",
             "Comment [Unlocks [Forbidden Palace]]",
@@ -520,7 +528,7 @@
             "Comment [Unlocks [Conquistador]]",
             "Provides [1] [Policies]"
         ],
-        "era": "Medieval era",
+        "era": "Classical era",
         "policies": [
             {
                 "name": "Naval Tradition",
@@ -597,7 +605,7 @@
             "Comment [Unlocks [Big Ben]]",
             "Provides [1] [Policies]"
         ],
-        "era": "Medieval era",
+        "era": "Renaissance era",
         "policies": [
             {
                 "name": "Silk Road",
@@ -674,7 +682,7 @@
     },
     {
         "name": "Rationalism",
-        "era": "Renaissance era",
+        "era": "Classical era",
         "uniques": [
             "[Great Scientist] is earned [20]% faster",
             "Comment [Unlocks [Porcelain Tower]]",
@@ -1408,20 +1416,4 @@
             }
         ]
     },
-    {
-        "name": "Ideology",
-        "era": "Modern era",
-        "uniques": [
-            "Free Social Policy",
-            "Unavailable"
-        ],
-        "policies": [
-            {
-                "name": "Ideology Complete",
-                "uniques": [
-                    "Comment [Report as error if you adopt this]"
-                ]
-            }
-        ]
-    }
 ]
