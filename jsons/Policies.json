@@ -91,8 +91,7 @@
         "era": "Modern era",
         "uniques": [
             "[+1 Culture] [in all cities]",
-            "Comment [Unlocks [The Pyramids]]",
-            "Provides [1] [Policies]"
+		"Only available <after adopting [Rationalism]>", "Unlocks building the Pyramids"
         ],
         "policies": [
             {
@@ -186,8 +185,7 @@
         "uniques": [
             "[+33]% Strength <vs [Barbarian] units>",
             "Earn [100]% of killed [Military] unit's [Strength] as [Culture]",
-            "Comment [Unlocks [Temple of Artemis]]",
-            "Provides [1] [Policies]"
+            "Unlocks building the Statue of Zeus"
         ],
         "policies": [
             {
@@ -507,6 +505,15 @@
                 "row": 3,
                 "column": 3
             },
+		{
+                		"name": "United Front",
+				"requires": ["Consulates"],
+                		"uniques": [
+                    		"Militaristic City-States grant units [2] times as fast when you are at war with a common nation","[-100]% weight to this choice for AI decisions"
+                			],
+                			"row": 3,
+                			"column": 5
+            		},
             {
                 "name": "Patronage Complete",
                 "uniques": [
