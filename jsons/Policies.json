@@ -5,20 +5,38 @@
         "uniques": [
             "[+3 Culture] from every [Palace]",
             "[-25]% Culture cost of natural border growth [in all cities]",
-            "Comment [Unlocks [Hanging Gardens]]",
-            "Provides [1] [Policies]"
+            "Unlocks building the Hanging Gardens"
         ],
         "policies": [
             {
                 "name": "Aristocracy",
                 "uniques": [
                     "[+15]% Production when constructing [All] wonders [in all cities]",
-                    "[+1 Happiness] per [10] population [in all cities]",
+                    "[+1 Happiness] per [10] population [in all cities]"
+                ],
+                "row": 1,
+                "column": 2
+            },
+            {
+                "name": "Oligarchy",
+                "uniques": [
+                    "Units in cities cost no Maintenance",
+                    "[+50]% Strength for cities <with a garrison> <when attacking>",
                     "Provides [1] [Policies]"
                 ],
                 "row": 1,
-                "column": 1
+                "column": 4
             },
+            {
+				"name": "Harmony",
+				"requires": ["Aristocracy"],
+				"uniques": [
+					"[+1 Happiness, +1 Food, +1 Faith, +1 Culture, +3 Production] <in cities with at least [7] [Population]>",
+					"[-10]% Unhappiness from [Population] [in all cities]"
+				],
+				"row": 2,
+				"column": 2
+			},
             {
                 "name": "Legalism",
                 "uniques": [
@@ -32,21 +50,10 @@
                     "[+2 Culture] from every [Ironworks]",
                     "[+2 Culture] from every [Oxford University]",
                     "[+2 Culture] from every [Hermitage]",
-                    "[+2 Culture] from every [National Intelligence Agency]",
-                    "Provides [1] [Policies]"
+                    "[+2 Culture] from every [National Intelligence Agency]"
                 ],
-                "row": 1,
-                "column": 3
-            },
-            {
-                "name": "Oligarchy",
-                "uniques": [
-                    "Units in cities cost no Maintenance",
-                    "[+50]% Strength for cities <with a garrison> <when attacking>",
-                    "Provides [1] [Policies]"
-                ],
-                "row": 1,
-                "column": 5
+                "row": 2,
+                "column": 4
             },
             {
                 "name": "Landed Elite",
@@ -56,8 +63,8 @@
                     "Provides [1] [Policies]"
                 ],
                 "requires": ["Legalism"],
-                "row": 2,
-                "column": 2
+                "row": 3,
+                "column": 3
             },
             {
                 "name": "Monarchy",
@@ -66,8 +73,8 @@
                     "Provides [1] [Policies]"
                 ],
                 "requires": ["Legalism"],
-                "row": 2,
-                "column": 4
+                "row": 3,
+                "column": 5
             },
             {
                 "name": "Tradition Complete",
