@@ -241,7 +241,8 @@
 	{
 				"name": "Mercenary Army",
 				"requires": ["Military Tradition"],
-				"uniques": ["May buy [Landsknecht] units with [Gold] for [5] times their normal Production cost"],
+				"uniques": ["May buy [Landsknecht] units with [Gold] for [3] times their normal Production cost",
+						"May buy [Foreign Legion] units with [Gold] for [5] times their normal Production cost"],
 				"row": 3,
 				"column": 2
 			},
@@ -616,15 +617,16 @@
                 "row": 1,
                 "column": 2
             },
-            {
-                "name": "Mercenary Army",
+		{
+                "name": "Economic Union",
                 "uniques": [
-                    "Comment [Allows purchasing [Landsknecht] at [Civil Service]]",
-                    "Comment [Allows purchasing [Foreign Legion] at [Replaceable Parts]]",
+                    "[+25]% [Gold] [in all cities]",
+                    "Provides [1] [Trade Route]",
+                    "Provides [1] [Level 1 Ideology]",
                     "Provides [1] [Policies]"
                 ],
                 "row": 1,
-                "column": 5
+                "column": 13
             },
             {
                 "name": "Entrepreneurship",
@@ -1053,17 +1055,6 @@
                 "column": 11
             },
             {
-                "name": "Economic Union",
-                "uniques": [
-                    "[+25]% [Gold] [in all cities]",
-                    "Provides [1] [Trade Route]",
-                    "Provides [1] [Level 1 Ideology]",
-                    "Provides [1] [Policies]"
-                ],
-                "row": 1,
-                "column": 13
-            },
-            {
                 "name": "Urbanization",
                 "uniques": [
                     "[+2 Production, +2 Science] from every [Windmill]",
@@ -1229,16 +1220,6 @@
                 ],
                 "row": 1,
                 "column": 3
-            },
-            {
-                "name": "United Front",
-                "uniques": [
-                    "Militaristic City-States grant units [2] times as fast when you are at war with a common nation",
-                    "Provides [1] [Level 1 Ideology]",
-                    "Provides [1] [Policies]"
-                ],
-                "row": 1,
-                "column": 5
             },
             {
                 "name": "Futurism",
