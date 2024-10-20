@@ -1,3 +1,15 @@
+game9.png
+size: 2048, 256
+format: RGBA8888
+filter: MipMapLinearLinear, MipMapLinearLinear
+repeat: none
+PolicyIcons/Double Agents
+  rotate: false
+  xy: 220, 148
+  size: 100, 100
+  orig: 100, 100
+  offset: 0, 0
+  index: -1
 
 PolIcons.png
 size: 2048, 128
@@ -7,6 +19,13 @@ repeat: none
 PolicyIcons/Secularity
   rotate: false
   xy: 1338, 4
+  size: 50, 50
+  orig: 50, 50
+  offset: 0, 0
+  index: -1
+PolicyIcons/Socialist Realism
+  rotate: false
+  xy: 1396, 62
   size: 50, 50
   orig: 50, 50
   offset: 0, 0
@@ -283,7 +302,7 @@ PolicyIcons/Skyscrapers
   orig: 50, 50
   offset: 0, 0
   index: -1
-PolicyIcons/Socialist Realism
+PolicyIcons/Cultural Revolution
   rotate: false
   xy: 972, 280
   size: 50, 50
@@ -653,7 +672,7 @@ PolicyIcons/Optimization Imperative
   orig: 50, 50
   offset: 0, 0
   index: -1
-PolicyIcons/Political Philosophy
+PolicyIcons/Free Mind
   rotate: false
   xy: 366, 22
   size: 50, 50
