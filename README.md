@@ -85,3 +85,11 @@ PolicyIcons/Consulates
   orig: 50, 50
   offset: 0, 0
   index: -1
+
+PolicyIcons/Volunteer Army
+  rotate: false
+  xy: 1176, 627
+  size: 50, 50
+  orig: 50, 50
+  offset: 0, 0
+  index: -1
