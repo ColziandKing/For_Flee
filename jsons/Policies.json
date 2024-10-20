@@ -768,7 +768,7 @@
             {
                 "name": "Rationalism Complete",
                 "uniques": [
-                    "[10]% [Science] <while the empire is happy>"
+                    "[10]% [Science] <while the empire is happy>","[-10]% unhappiness from the number of cities"
                 ]
             }
         ]
@@ -833,8 +833,7 @@
             {
                 "name": "Skyscrapers",
                 "uniques": [
-                    "[Gold] cost of purchasing [All] buildings [-50]%",
-                    "Only available <when above [1] [Level 1 Ideology]>"
+                    "[Gold] cost of purchasing [All] buildings [-50]%"
                 ],
                 "row": 2,
                 "column": 2
@@ -844,8 +843,7 @@
                 "uniques": [
                     "[+1 Happiness] from every [Observatory]",
                     "[+1 Happiness] from every [Public School]",
-                    "[+1 Happiness] from every [Research Lab]",
-                    "Only available <when above [1] [Level 1 Ideology]>"
+                    "[+1 Happiness] from every [Research Lab]"
                 ],
                 "row": 2,
                 "column": 4
@@ -854,8 +852,7 @@
                 "name": "Cultural Revolution",
                 "uniques": [
                     "[+10]% [Culture] [in all cities] <while the empire is happy>",
-                    "Empire enters golden age",
-                    "Only available <when above [1] [Level 1 Ideology]>"
+                    "Empire enters golden age"
                 ],
                 "row": 2,
                 "column": 6
@@ -864,8 +861,7 @@
                 "name": "Workers' Faculties",
                 "uniques": [
                     "[+25]% [Science] <in cities with a [Factory]>",
-                    "[+100]% Production when constructing [Factory] buildings [in all cities]",
-                    "Only available <when above [1] [Level 1 Ideology]>"
+                    "[+100]% Production when constructing [Factory] buildings [in all cities]"
                 ],
                 "row": 2,
                 "column": 8
@@ -905,11 +901,7 @@
                     "[+100]% Production when constructing [Military Academy] buildings [in all cities]",
                     "[+100]% Production when constructing [Armory] buildings [in all cities]",
                     "[+2 Science, +2 Culture] from every [Military Academy]",
-                    "[+2 Science, +2 Culture] from every [Armory]",
-                    "Provides [-1] [Level 1 Ideology]",
-                    "Provides [1] [Level 2 Ideology]",
-                    "Only available <when above [1] [Level 1 Ideology]>",
-                    "Provides [1] [Policies]"
+                    "[+2 Science, +2 Culture] from every [Armory]"
                 ],
                 "row": 3,
                 "column": 7
@@ -926,7 +918,7 @@
             },
             {
                 "name": "Order Complete",
-                "uniques": [
+                "uniques": [+2 Culture] [in all cities]","[+10]% unhappiness from the number of cities"
                 ]
             }
         ]
@@ -1022,11 +1014,7 @@
                     "[+100]% Production when constructing [Hospital] buildings [in all cities]",
                     "[+3 Science] from every [Medical Lab]",
                     "[+3 Science] from every [Hospital]",
-                    "[+5 Food] [in capital]",
-                    "Provides [-1] [Level 1 Ideology]",
-                    "Provides [1] [Level 2 Ideology]",
-                    "Only available <when above [1] [Level 1 Ideology]>",
-                    "Provides [1] [Policies]"
+                    "[+5 Food] [in capital]"
                 ],
                 "row": 2,
                 "column": 8
@@ -1083,7 +1071,7 @@
             },
             {
                 "name": "Freedom Complete",
-                "uniques": [
+                "uniques": ["[+100]% Yield from every [Great Improvement]", "[+50]% Golden Age length","[-20]% unhappiness from the number of cities"
                 ]
             }
         ]
@@ -1199,9 +1187,7 @@
             {
                 "name": "Cult of Personality",
                 "uniques": [
-                    "[+20]% [Culture] [in all cities]",
-                    "Provides [-1] [Level 2 Ideology]",
-                    "Only available <when above [1] [Level 2 Ideology]>"
+                    "[+20]% [Culture] [in all cities]"
                 ],
                 "row": 3,
                 "column": 3
@@ -1236,7 +1222,7 @@
             },
             {
                 "name": "Autocracy Complete",
-                "uniques": [
+                "uniques": ["[+25]% Strength <when attacking> <for [Military] units> <for [50] turns>","[+20]% unhappiness from the number of cities"
                 ]
             }
         ]
