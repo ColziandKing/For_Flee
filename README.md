@@ -30,4 +30,19 @@ PolicyIcons/Urbanization
   size: 50, 50
   orig: 50, 50
   offset: 0, 0
+  
+PolicyIcons/Urbanization
+  rotate: false
+  xy: 642, 4
+  size: 50, 50
+  orig: 50, 50
+  offset: 0, 0
+  index: -1
+PolicyIcons/Urbanization
+  rotate: false
+  xy: 1632, 1826
+  size: 50, 50
+  orig: 50, 50
+  offset: 0, 0
+  index: -1
   index: -1
