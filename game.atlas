@@ -1,3 +1,17 @@
+
+PolIcons.png
+size: 2048, 128
+format: RGBA8888
+filter: MipMapLinearLinear, Linear
+repeat: none
+PolicyIcons/Secularism
+  rotate: false
+  xy: 1338, 4
+  size: 50, 50
+  orig: 50, 50
+  offset: 0, 0
+  index: -1
+
 game8.png
 size: 2048, 2048
 format: RGBA8888
@@ -527,7 +541,7 @@ PolicyIcons/Guilds
   orig: 50, 50
   offset: 0, 0
   index: -1
-PolicyIcons/Humanism
+PolicyIcons/Humanity
   rotate: false
   xy: 1164, 792
   size: 50, 50
