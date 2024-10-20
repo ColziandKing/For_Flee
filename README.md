@@ -69,3 +69,11 @@ PolicyIcons/Universal Healthcare
   orig: 50, 50
   offset: 0, 0
   index: -1
+
+PolicyIcons/Iron Fist
+  rotate: false
+  xy: 1458, 1174
+  size: 50, 50
+  orig: 50, 50
+  offset: 0, 0
+  index: -1
