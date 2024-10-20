@@ -357,7 +357,7 @@ PolicyIcons/Capitalism
   orig: 50, 50
   offset: 0, 0
   index: -1
-PolicyIcons/Civil Engineering
+PolicyIcons/Resettlements
   rotate: false
   xy: 1427, 1116
   size: 50, 50
@@ -644,7 +644,7 @@ PolicyIcons/Futurism
   orig: 50, 50
   offset: 0, 0
   index: -1
-PolicyIcons/Nuclear Program
+PolicyIcons/Industrial Espionage
   rotate: false
   xy: 308, 30
   size: 50, 50
@@ -756,7 +756,7 @@ PolicyIcons/Theology
   orig: 50, 50
   offset: 0, 0
   index: -1
-PolicyIcons/Totalitarianism
+PolicyIcons/Gunboat Diplomacy
   rotate: false
   xy: 1180, 560
   size: 50, 50
@@ -850,7 +850,7 @@ ReligionIcons/Catholicism
   orig: 100, 100
   offset: 0, 0
   index: -1
-PolicyIcons/Nazism
+PolicyIcons/Lightning Warfare
   rotate: false
   xy: 500, 600
   size: 100, 100
