@@ -3,6 +3,27 @@ size: 2048, 512
 format: RGBA8888
 filter: MipMapLinearLinear, MipMapLinearLinear
 repeat: none
+PolicyIcons/Elite Forces
+  rotate: false
+  xy: 1582, 436
+  size: 50, 50
+  orig: 50, 50
+  offset: 0, 0
+  index: -1
+PolicyIcons/Patriotic War
+  rotate: false
+  xy: 1872, 436
+  size: 50, 50
+  orig: 50, 50
+  offset: 0, 0
+  index: -1
+PolicyIcons/Universal Healthcare
+  rotate: false
+  xy: 1930, 436
+  size: 50, 50
+  orig: 50, 50
+  offset: 0, 0
+  index: -1
 PolicyIcons/Workers' Faculties
   rotate: false
   xy: 700, 4
@@ -126,13 +147,6 @@ PolicyIcons/Cultural Exchange
   orig: 50, 50
   offset: 0, 0
   index: -1
-PolicyIcons/Elite Forces
-  rotate: false
-  xy: 1176, 685
-  size: 50, 50
-  orig: 50, 50
-  offset: 0, 0
-  index: -1
 PolicyIcons/Entrepreneurship
   rotate: false
   xy: 1856, 708
@@ -162,13 +176,6 @@ PolicyIcons/Flourishing of the Arts
   offset: 0, 0
   index: -1
 PolicyIcons/Free Healthcare
-  rotate: false
-  xy: 861, 454
-  size: 50, 50
-  orig: 50, 50
-  offset: 0, 0
-  index: -1
-PolicyIcons/Universal Healthcare
   rotate: false
   xy: 861, 454
   size: 50, 50
