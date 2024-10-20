@@ -54,3 +54,18 @@ PolicyIcons/Fine Arts
   offset: 0, 0
   index: -1
   index: -1
+
+PolicyIcons/Elite Forces
+  rotate: false
+  xy: 1176, 685
+  size: 50, 50
+  orig: 50, 50
+  offset: 0, 0
+  index: -1
+PolicyIcons/Universal Healthcare
+  rotate: false
+  xy: 861, 454
+  size: 50, 50
+  orig: 50, 50
+  offset: 0, 0
+  index: -1
