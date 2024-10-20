@@ -38,6 +38,13 @@ PolicyIcons/Workers' Faculties
   orig: 50, 50
   offset: 0, 0
   index: -1
+PolicyIcons/Young Pioneers
+  rotate: false
+  xy: 758, 4
+  size: 50, 50
+  orig: 50, 50
+  offset: 0, 0
+  index: -1
 
 game9.png
 size: 2048, 256
@@ -122,13 +129,6 @@ PolicyIcons/Colonialism
 PolicyIcons/Communism
   rotate: false
   xy: 1000, 627
-  size: 50, 50
-  orig: 50, 50
-  offset: 0, 0
-  index: -1
-PolicyIcons/Consulates
-  rotate: false
-  xy: 1060, 677
   size: 50, 50
   orig: 50, 50
   offset: 0, 0
