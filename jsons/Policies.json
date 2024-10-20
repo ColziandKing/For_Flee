@@ -701,10 +701,14 @@
             "Comment [Unlocks [Porcelain Tower]]"
         ],
         "policies": [
-            {
-                "name": "Secularity",
+		{
+                "name": "Sovereignty",
                 "uniques": [
-                    "[+2 Science] from every specialist [in all cities]"
+                    "[+1 Gold] from every [Library]",
+                    "[+1 Gold] from every [University]",
+                    "[+1 Gold] from every [Observatory]",
+                    "[+1 Gold] from every [Research Lab]",
+                    "[+1 Gold] from every [Public School]"
                 ],
                 "row": 1,
                 "column": 1
@@ -734,19 +738,6 @@
                 "row": 1,
                 "column": 5
             },
-		{
-                "name": "Sovereignty",
-                "uniques": [
-                    "[+1 Gold] from every [Library]",
-                    "[+1 Gold] from every [University]",
-                    "[+1 Gold] from every [Observatory]",
-                    "[+1 Gold] from every [Research Lab]",
-                    "[+1 Gold] from every [Public School]"
-                ],
-                "requires": ["Secularity"],
-                "row": 2,
-                "column": 1
-            },
             {
                 "name": "Scientific Revolution",
                 "uniques": [
@@ -756,11 +747,20 @@
                 "row": 2,
                 "column": 3
             },
+            {
+                "name": "Secularity",
+                "uniques": [
+                    "[+2 Science] from every specialist [in all cities]"
+                ],
+		    "requires": ["Humanity"],
+                "row": 2,
+                "column": 5
+            },
 		{
 				"name": "Christianity",
 				"uniques": ["[+2 Production, +2 Food, +2 Gold, +2 Faith, +2 Culture, +2 Science, +2 Happiness] per [5] population [in all cities]",
 					"[Faith] cost of purchasing [Missionary] units [-20]%","[2] free [Missionary] units appear"],
-				"requires": ["Sovereignty","Humanity"],
+				"requires": ["Sovereignty","Secularity"],
 				"row": 3,
 				"column": 3
 			},
