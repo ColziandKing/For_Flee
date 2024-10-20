@@ -366,7 +366,7 @@
 					"[+15]% Strength <for [All] units> <when fighting in [Forest] tiles>",
 					"[+15]% Strength <for [All] units> <when fighting in [Grassland] tiles>"
 				],
-				"row": 1,
+				"row": 3,
 				"column": 3
 			},
             {
@@ -457,7 +457,7 @@
                     "Gain a free [Fine Art Specialist] [in all cities]",
                     "Provides [1] [Policies]"
                 ],
-                "requires": ["Cultural Exchange","Artistic Genius"],
+                "requires": ["Cultural Exchange"],
                 "row": 3,
                 "column": 4
             },
@@ -475,7 +475,7 @@
                     "Only available <when above [1] [Level 1 Ideology]>",
                     "Provides [1] [Policies]"
                 ],
-                "row": 2,
+                "row": 4,
                 "column": 4
             },
             {
@@ -831,7 +831,7 @@
 					"[Faith] cost of purchasing [Missionary] units [-20]%","[2] free [Missionary] units appear"],
 				"requires": ["Humanity"],
 				"row": 3,
-				"column": 3
+				"column": 4
 			},
 
             {
