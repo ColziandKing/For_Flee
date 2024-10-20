@@ -3,11 +3,18 @@ size: 2048, 256
 format: RGBA8888
 filter: MipMapLinearLinear, MipMapLinearLinear
 repeat: none
-PolicyIcons/Double Agents
+PolicyIcons/Covert Action
   rotate: false
   xy: 220, 148
   size: 100, 100
   orig: 100, 100
+  offset: 0, 0
+  index: -1
+PolicyIcons/Double Agents
+  rotate: false
+  xy: 976, 90
+  size: 50, 50
+  orig: 50, 50
   offset: 0, 0
   index: -1
 
