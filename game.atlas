@@ -457,7 +457,7 @@ PolicyIcons/Drama and Poetry
   orig: 50, 50
   offset: 0, 0
   index: -1
-PolicyIcons/Early Empire
+PolicyIcons/Monarchy
   rotate: false
   xy: 616, 296
   size: 50, 50
@@ -492,7 +492,7 @@ PolicyIcons/Feudalism
   orig: 50, 50
   offset: 0, 0
   index: -1
-PolicyIcons/Foreign Trade
+PolicyIcons/Economic Union
   rotate: false
   xy: 890, 570
   size: 50, 50
