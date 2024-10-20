@@ -695,7 +695,7 @@
     },
 	{
         "name": "World",
-        "era": "Medieval era",
+        "era": "Ancient era",
         "uniques": [
             "[+1 Culture] [in all cities]",
 		"Only available <after adopting [Piety]>", "Only available <after adopting [Rationalism]>", "Unlocks building the Angkor Wat"
