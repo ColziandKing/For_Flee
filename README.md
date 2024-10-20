@@ -23,3 +23,11 @@ PolicyIcons/Entrepreneurship
   orig: 50, 50
   offset: 0, 0
   index: -1
+
+PolicyIcons/Urbanization
+  rotate: false
+  xy: 452, 7
+  size: 50, 50
+  orig: 50, 50
+  offset: 0, 0
+  index: -1
