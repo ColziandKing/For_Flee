@@ -3,6 +3,13 @@ size: 2048, 512
 format: RGBA8888
 filter: MipMapLinearLinear, MipMapLinearLinear
 repeat: none
+PolicyIcons/Consulates
+  rotate: false
+  xy: 1466, 436
+  size: 50, 50
+  orig: 50, 50
+  offset: 0, 0
+  index: -1
 PolicyIcons/Elite Forces
   rotate: false
   xy: 1582, 436
@@ -273,7 +280,7 @@ PolicyIcons/Party Leadership
   orig: 50, 50
   offset: 0, 0
   index: -1
-PolicyIcons/Patriotic War
+PolicyIcons/Iron Fist
   rotate: false
   xy: 914, 222
   size: 50, 50
@@ -405,14 +412,7 @@ PolicyIcons/Civil Service
   orig: 50, 50
   offset: 0, 0
   index: -1
-PolicyIcons/Iron Fist
-  rotate: false
-  xy: 1458, 1174
-  size: 50, 50
-  orig: 50, 50
-  offset: 0, 0
-  index: -1
-PolicyIcons/Code of Laws
+PolicyIcons/Legalism
   rotate: false
   xy: 1485, 1116
   size: 50, 50
