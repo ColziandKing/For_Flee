@@ -420,7 +420,7 @@ PolicyIcons/Craftsmanship
   orig: 50, 50
   offset: 0, 0
   index: -1
-PolicyIcons/Cultural Hegemony
+PolicyIcons/Cult of Personality
   rotate: false
   xy: 1804, 1592
   size: 50, 50
@@ -476,14 +476,14 @@ PolicyIcons/Monarchy
   orig: 50, 50
   offset: 0, 0
   index: -1
-PolicyIcons/Environmentalism
+PolicyIcons/Treaty Organization
   rotate: false
   xy: 674, 354
   size: 50, 50
   orig: 50, 50
   offset: 0, 0
   index: -1
-PolicyIcons/Exodus Imperative
+PolicyIcons/Spaceflight Pioneers
   rotate: false
   xy: 674, 296
   size: 50, 50
@@ -644,7 +644,7 @@ PolicyIcons/Naval Tradition
   orig: 50, 50
   offset: 0, 0
   index: -1
-PolicyIcons/Near Future Governance
+PolicyIcons/Futurism
   rotate: false
   xy: 1617, 1260
   size: 50, 50
@@ -714,7 +714,7 @@ PolicyIcons/Scorched Earth
   orig: 50, 50
   offset: 0, 0
   index: -1
-PolicyIcons/Smart Power Doctrine
+PolicyIcons/Arsenal of Democracy
   rotate: false
   xy: 948, 558
   size: 50, 50
@@ -728,7 +728,7 @@ PolicyIcons/Social Media
   orig: 50, 50
   offset: 0, 0
   index: -1
-PolicyIcons/Space Race
+PolicyIcons/Space Procurements
   rotate: false
   xy: 1006, 558
   size: 50, 50
@@ -742,7 +742,7 @@ PolicyIcons/State Workforce
   orig: 50, 50
   offset: 0, 0
   index: -1
-PolicyIcons/Suffrage
+PolicyIcons/Universal Suffrage
   rotate: false
   xy: 1064, 560
   size: 50, 50
