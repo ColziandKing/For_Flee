@@ -441,7 +441,7 @@ PolicyIcons/Cultural Heritage
   orig: 50, 50
   offset: 0, 0
   index: -1
-PolicyIcons/Defensive Tactics
+PolicyIcons/Fortified Borders
   rotate: false
   xy: 1862, 1592
   size: 50, 50
@@ -823,32 +823,6 @@ PolicyIcons/Promised Land
   xy: 868, 4
   size: 100, 100
   orig: 100, 100
-  offset: 0, 0
-  index: -1
-
-game6.png
-size: 2048, 2048
-format: RGBA8888
-filter: MipMapLinearLinear, MipMapLinearLinear
-repeat: none
-NationIcons/Colziand
-  rotate: false
-  xy: 544, 424
-  size: 99, 100
-  orig: 99, 100
-  offset: 0, 0
-  index: -1
-
-game5.png
-size: 1024, 1024
-format: RGBA8888
-filter: MipMapLinearLinear, MipMapLinearLinear
-repeat: none
-BuildingIcons/Palengke
-  rotate: false
-  xy: 4, 4
-  size: 700, 700
-  orig: 700, 700
   offset: 0, 0
   index: -1
 
