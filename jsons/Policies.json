@@ -198,17 +198,6 @@
                 "row": 1,
                 "column": 1
             },
-		{
-                "name": "Discipline",
-                "uniques": [
-                    "[+100]% Production when constructing [Heroic Epic] wonders [in all cities]",
-                    "[+4 Production, +4 Gold, +4 Culture, +4 Happiness] from every [Heroic Epic]",
-                    "[50]% XP gained from combat <for [non-[Air]] units>"
-                ],
-                "requires": ["Warrior Code"],
-                "row": 1,
-                "column": 3
-            },
             {
                 "name": "Military Tradition",
                 "uniques": [
@@ -217,7 +206,16 @@
                     "[+3 Production, +3 Gold, +3 Food] from every [Courthouse]",
                     "[+1 Food, +2 Science, +2 Culture] from every [Citadel]"
                 ],
-                "requires": ["Professional Army"],
+                "row": 1,
+                "column": 3
+            },
+		{
+                "name": "Discipline",
+                "uniques": [
+                    "[+100]% Production when constructing [Heroic Epic] wonders [in all cities]",
+                    "[+4 Production, +4 Gold, +4 Culture, +4 Happiness] from every [Heroic Epic]",
+                    "[50]% XP gained from combat <for [non-[Air]] units>"
+                ],
                 "row": 1,
                 "column": 5
             },
@@ -242,6 +240,7 @@
                     "[+100]% Production when constructing [Armory] buildings [in all cities]",
                     "[+100]% Production when constructing [Military Academy] buildings [in all cities]"
                 ],
+                "requires": ["Military Tradition"],
                 "row": 2,
                 "column": 3
             },
@@ -251,6 +250,7 @@
                     "[+10]% Strength <for [Military] units>",
                     "[+10] HP when healing <for [Military] units>"
                 ],
+                "requires": ["Discipline"],
                 "row": 2,
                 "column": 5
             },
@@ -649,6 +649,7 @@
                 "uniques": [
                     "Gain a free [Fine Art Specialist] [in all cities]"
                 ],
+                "requires": ["Cultural Centers","Cultural Exchange"],
                 "row": 2,
                 "column": 1
             },
@@ -659,7 +660,7 @@
                     "[+1 Culture] from every [World Wonder]",
                     "Empire enters golden age"
                 ],
-                "requires": ["Cultural Centers"],
+                "requires": ["Cultural Centers","Cultural Exchange"],
                 "row": 2,
                 "column": 3
             },
@@ -674,7 +675,7 @@
                     "[+3 Science] from every [Great Work]",
                     "[+2 Science] from every [Landmark]"
                 ],
-                "requires": ["Cultural Centers"],
+                "requires": ["Free Mind","Cultural Centers"],
                 "row": 2,
                 "column": 5
             },
