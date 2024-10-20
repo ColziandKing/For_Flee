@@ -366,7 +366,7 @@ PolicyIcons/Civil Service
   orig: 50, 50
   offset: 0, 0
   index: -1
-PolicyIcons/Class Struggle
+PolicyIcons/Iron Fist
   rotate: false
   xy: 1458, 1174
   size: 50, 50
@@ -541,7 +541,7 @@ PolicyIcons/Humanity
   orig: 50, 50
   offset: 0, 0
   index: -1
-PolicyIcons/Ideology
+PolicyIcons/People's Army
   rotate: false
   xy: 1164, 734
   size: 50, 50
@@ -785,7 +785,7 @@ PolicyIcons/Fortune Wheel
   orig: 100, 100
   offset: 0, 0
   index: -1
-PolicyIcons/Christ
+PolicyIcons/Christianity
   rotate: false
   xy: 112, 4
   size: 100, 100
