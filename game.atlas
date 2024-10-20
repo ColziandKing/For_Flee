@@ -85,6 +85,13 @@ PolicyIcons/Communism
   orig: 50, 50
   offset: 0, 0
   index: -1
+PolicyIcons/Workers Faculties
+  rotate: false
+  xy: 1000, 627
+  size: 50, 50
+  orig: 50, 50
+  offset: 0, 0
+  index: -1
 PolicyIcons/Consulates
   rotate: false
   xy: 1060, 677
@@ -116,6 +123,20 @@ PolicyIcons/Cultural Exchange
 PolicyIcons/Elite Forces
   rotate: false
   xy: 1176, 685
+  size: 50, 50
+  orig: 50, 50
+  offset: 0, 0
+  index: -1
+PolicyIcons/Entrepreneurship
+  rotate: false
+  xy: 1856, 708
+  size: 50, 50
+  orig: 50, 50
+  offset: 0, 0
+  index: -1
+PolicyIcons/Fine Arts
+  rotate: false
+  xy: 1914, 708
   size: 50, 50
   orig: 50, 50
   offset: 0, 0
@@ -295,13 +316,6 @@ PolicyIcons/Skyscrapers
   orig: 50, 50
   offset: 0, 0
   index: -1
-PolicyIcons/Cultural Revolution
-  rotate: false
-  xy: 972, 280
-  size: 50, 50
-  orig: 50, 50
-  offset: 0, 0
-  index: -1
 PolicyIcons/Third Alternative
   rotate: false
   xy: 972, 106
@@ -319,6 +333,13 @@ PolicyIcons/Treasure Fleets
 PolicyIcons/United Front
   rotate: false
   xy: 394, 7
+  size: 50, 50
+  orig: 50, 50
+  offset: 0, 0
+  index: -1
+PolicyIcons/Urbanization
+  rotate: false
+  xy: 452, 7
   size: 50, 50
   orig: 50, 50
   offset: 0, 0
