@@ -506,16 +506,15 @@
                 "uniques": [
                     "Resting point for Influence with City-States is increased by [20]"
                 ],
-                "requires": ["Cultural Diplomacy"],
                 "row": 3,
-                "column": 3
+                "column": 1
             },
 		{
                 		"name": "United Front",
                 		"uniques": [
                     		"Militaristic City-States grant units [2] times as fast when you are at war with a common nation","[-100]% weight to this choice for AI decisions"
                 			],
-                			"row": 3,
+                			"row": 1,
                 			"column": 5
             		},
             {
@@ -536,8 +535,7 @@
             "[+1] Movement <for [{Military} {Water}] units>",
             "[+1] Sight <for [{Military} {Water}] units>",
             "Comment [Unlocks [The Louvre]]",
-            "Comment [Unlocks [Conquistador]]",
-            "Provides [1] [Policies]"
+            "Comment [Unlocks [Conquistador]]"
         ],
         "era": "Classical era",
         "policies": [
@@ -546,8 +544,7 @@
                 "uniques": [
                     "[+1 Happiness, +1 Culture] from every [Lighthouse]",
                     "[+1 Happiness, +1 Culture] from every [Harbor]",
-                    "[+1 Happiness, +1 Culture] from every [Seaport]",
-                    "Provides [1] [Policies]"
+                    "[+1 Happiness, +1 Culture] from every [Seaport]"
                 ],
                 "row": 1,
                 "column": 1
@@ -558,8 +555,7 @@
                     "[+3 Production] [in all coastal cities]",
                     "[+50]% Production when constructing [Lighthouse] buildings [in all cities]",
                     "[+50]% Production when constructing [Harbor] buildings [in all cities]",
-                    "[+50]% Production when constructing [Seaport] buildings [in all cities]",
-                    "Provides [1] [Policies]"
+                    "[+50]% Production when constructing [Seaport] buildings [in all cities]"
                 ],
                 "row": 1,
                 "column": 3
@@ -570,8 +566,7 @@
                     //"[+1] population [in all cities]",
                     //"[+1 Happiness] [in all cities]",
                     "Gain a free [Governor's Mansion] [in this city] <upon founding a city>",
-                    "Free [Worker] appears <upon founding a city>",
-                    "Provides [1] [Policies]"
+                    "Free [Worker] appears <upon founding a city>"
                 ],
                 "row": 1,
                 "column": 5
@@ -580,8 +575,7 @@
                 "name": "Navigation School",
                 "uniques": [
                     "[+2 Science] [in all coastal cities]",
-                    "[+10]% Strength <for [Water] units>",
-                    "Provides [1] [Policies]"
+                    "[+10]% Strength <for [Water] units>"
                 ],
                 "requires": ["Maritime Infrastructure","Naval Tradition"],
                 "row": 2,
@@ -591,8 +585,7 @@
                 "name": "Treasure Fleets",
                 "uniques": [
                     "[+1 Gold, +1 Production, +1 Food] from every [Coast] <in tiles without [resource]> <in tiles without [Improvement]>",
-                    "[+1 Gold, +1 Production, +1 Food] from every [Ocean]",
-                    "Provides [1] [Policies]"
+                    "[+1 Gold, +1 Production, +1 Food] from every [Ocean]"
                 ],
                 "requires": ["Navigation School"],
                 "row": 3,
@@ -606,9 +599,7 @@
                     "Gain a free [Monument] [in this city] <upon founding a city>",
                     "Gain a free [Granary] [in this city] <upon founding a city>",
                     "Gain a free [Library] [in this city] <upon founding a city>",
-                    "Gain a free [Aqueduct] [in this city] <upon founding a city>",
-                    "Provides [1] [Level 1 Ideology]",
-                    "Provides [1] [Policies]"
+                    "Gain a free [Aqueduct] [in this city] <upon founding a city>"
                 ],
                 "row": 1,
                 "column": 13
@@ -649,7 +640,7 @@
                     "Provides [1] [Trade Route]"
                 ],
                 "row": 1,
-                "column": 13
+                "column": 1
             },
             {
                 "name": "Entrepreneurship",
@@ -685,15 +676,15 @@
                     "[+4 Production, +4 Culture, +4 Happiness] from every [East India Company]"
                 ],
                 "requires": ["Mercantilism"],
-                "row": 3,
-                "column": 3
+                "row": 2,
+                "column": 5
             },
 		{
 				"name": "Mercenary Army",
 				"uniques": ["May buy [Landsknecht] units with [Gold] for [3] times their normal Production cost",
 						"May buy [Foreign Legion] units with [Gold] for [5] times their normal Production cost"],
-				"row": 3,
-				"column": 2
+				"row": 1,
+				"column": 5
 			},
             {
                 "name": "Commerce Complete",
