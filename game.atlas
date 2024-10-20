@@ -469,7 +469,7 @@ PolicyIcons/Divine Right
   orig: 48, 50
   offset: 0, 0
   index: -1
-PolicyIcons/Drama and Poetry
+PolicyIcons/Creative Expression
   rotate: false
   xy: 458, 80
   size: 50, 50
@@ -1352,13 +1352,6 @@ PolicyIcons/Triumph
   orig: 50, 50
   offset: 0, 0
   index: -1
-PolicyIcons/Urbanization
-  rotate: false
-  xy: 1632, 1826
-  size: 50, 50
-  orig: 50, 50
-  offset: 0, 0
-  index: -1
 PolicyIcons/Voting Rights
   rotate: false
   xy: 610, 738
@@ -1725,13 +1718,6 @@ PolicyIcons/Treasure Fleets
 PolicyIcons/Universal Healthcare
   rotate: false
   xy: 1988, 436
-  size: 50, 50
-  orig: 50, 50
-  offset: 0, 0
-  index: -1
-PolicyIcons/Urbanization
-  rotate: false
-  xy: 642, 4
   size: 50, 50
   orig: 50, 50
   offset: 0, 0
