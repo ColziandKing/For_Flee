@@ -657,14 +657,14 @@
                 ],
                 "requires": ["Free Mind","Cultural Centers"],
                 "row": 2,
-                "column": 5
+                "column": 3
             },
 		{
                 "name": "Fine Arts",
                 "uniques": [
                     "Gain a free [Fine Art Specialist] [in all cities]"
                 ],
-                "requires": ["Cultural Centers","Cultural Exchange"],
+                "requires": ["Artistic Genius","Cultural Exchange"],
                 "row": 3,
                 "column": 1
             },
@@ -675,7 +675,7 @@
                     "[+1 Culture] from every [World Wonder]",
                     "Empire enters golden age"
                 ],
-                "requires": ["Cultural Centers","Cultural Exchange"],
+                "requires": ["Artistic Genius","Cultural Exchange"],
                 "row": 3,
                 "column": 3
             },
