@@ -77,3 +77,11 @@ PolicyIcons/Iron Fist
   orig: 50, 50
   offset: 0, 0
   index: -1
+
+PolicyIcons/Consulates
+  rotate: false
+  xy: 1060, 677
+  size: 50, 50
+  orig: 50, 50
+  offset: 0, 0
+  index: -1
