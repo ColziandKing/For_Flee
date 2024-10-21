@@ -1,4 +1,16 @@
 # ff
+PolIcons.png
+size: 2048, 128
+format: RGBA8888
+filter: MipMapLinearLinear, Linear
+repeat: none
+PolicyBranchIcons/Rationality
+  rotate: false
+  xy: 1164, 4
+  size: 50, 50
+  orig: 50, 50
+  offset: 0, 0
+  index: -1
 f
 PolicyIcons/Planned Economy
   rotate: false
