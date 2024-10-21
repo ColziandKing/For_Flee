@@ -1,4 +1,6 @@
 # ff
+Settler unlocks at Globalization
+
 PolIcons.png
 size: 2048, 128
 format: RGBA8888
