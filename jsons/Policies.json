@@ -578,7 +578,7 @@
                     "[+1 Gold, +1 Production, +1 Food] from every [Coast] <in tiles without [resource]> <in tiles without [Improvement]>",
                     "[+1 Gold, +1 Production, +1 Food] from every [Ocean]"
                 ],
-                "requires": ["Navigation School"],
+                "requires": ["Navigation School","Colonialism"],
                 "row": 3,
                 "column": 3
             },
