@@ -1,5 +1,5 @@
 # ff
-Settler unlocks at Globalization
+Settler unlocks at Globalization "Gain a free [Fine Art Specialist] [in all cities]"
 
 PolIcons.png
 size: 2048, 128
