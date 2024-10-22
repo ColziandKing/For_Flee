@@ -662,7 +662,7 @@
 		{
                 "name": "Fine Arts",
                 "uniques": [
-                    "Gain a free [Fine Art Specialist] [in all cities]"
+                    "[50]% of excess happiness converted to [Culture]"
                 ],
                 "requires": ["Artistic Genius","Cultural Exchange"],
                 "row": 3,
