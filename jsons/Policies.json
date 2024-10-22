@@ -1,7 +1,7 @@
 [
     {
         "name": "Tradition",
-        "era": "Industrial era",
+        "era": "Ancient era",
         "uniques": [
             "[+3 Culture] from every [Palace]",
             "[-25]% Culture cost of natural border growth [in all cities]",
@@ -84,7 +84,7 @@
     },
     {
         "name": "Liberty",
-        "era": "Modern era",
+        "era": "Classical era",
         "uniques": [
             "[+1 Culture] [in all cities]",
 		"Only available <after adopting [Rationalism]>", "Unlocks building the Pyramids"
@@ -181,7 +181,7 @@
     },
     {
         "name": "Honor",
-        "era": "Industrial era",
+        "era": "Ancient era",
         "uniques": [
             "[+33]% Strength <vs [Barbarian] units>",
             "Earn [100]% of killed [Military] unit's [Strength] as [Culture]",
@@ -351,7 +351,7 @@
     },
     {
         "name": "Patronage",
-        "era": "Renaissance era",
+        "era": "Medieval era",
         "uniques": [
             "Resting point for Influence with City-States is increased by [20]",
             "Comment [Unlocks [Forbidden Palace]]"
@@ -429,7 +429,7 @@
             "[Great Merchant] is earned [33]% faster",
             "Comment [Unlocks [Big Ben]]"
         ],
-        "era": "Renaissance era",
+        "era": "Medieval era",
         "policies": [
             {
                 "name": "Silk Road",
@@ -514,7 +514,7 @@
             "Comment [Unlocks [The Louvre]]",
             "Comment [Unlocks [Conquistador]]"
         ],
-        "era": "Classical era",
+        "era": "Medieval era",
         "policies": [
             {
                 "name": "Naval Tradition",
@@ -595,7 +595,7 @@
     },
 	{
         "name": "Aesthetics",
-        "era": "Medieval era",
+        "era": "Classical era",
         "uniques": [
             "[Great Artist] is earned [25]% faster",
             "[Great Writer] is earned [25]% faster",
@@ -695,7 +695,7 @@
     },
     {
         "name": "Rationalism",
-        "era": "Classical era",
+        "era": "Renaissance era",
         "uniques": [
             "[Great Scientist] is earned [20]% faster",
             "Comment [Unlocks [Porcelain Tower]]"
@@ -775,7 +775,7 @@
     },
     {
         "name": "Order",
-        "era": "Ancient era",
+        "era": "Industrial era",
         "uniques": [
             "Free Social Policy",
             "Comment [Unlocks [Kremlin]]",
@@ -925,7 +925,7 @@
     },
     {
         "name": "Freedom",
-        "era": "Ancient era",
+        "era": "Modern era",
         "uniques": [
             "Free Social Policy",
             "Comment [Unlocks [Statue of Liberty]]",
@@ -1078,7 +1078,7 @@
     },
     {
         "name": "Autocracy",
-        "era": "Ancient era",
+        "era": "Industrial era",
         "uniques": [
             "Free Social Policy",
             "Comment [Unlocks [Prora]]",
